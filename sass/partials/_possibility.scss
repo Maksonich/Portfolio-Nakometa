@@ -1,0 +1,91 @@
+.possibility {
+    margin-top: 108px;
+    h3{
+        margin-bottom: 27px;
+    }
+    .subtitle {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    ul{
+        margin-top: 50px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            
+            padding: 40px 30px;
+            max-width: 23%;
+            margin-right: 40px;
+            height: 400px;
+            background-color: rgba(235, 250, 255, 0.7);
+            border-radius: 20px;
+            @media (max-width:1020px){
+                height: 360px;
+                padding: 20px 15px;
+                margin-right: 20px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+            @media(max-width:861px){
+                height: 350px;
+                padding: 10px 7px;
+            }
+            @media(max-width:791px){
+                margin-right: 5px;
+                &:last-child{
+                    margin-right: 0px;
+                }
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+            img{
+                padding-bottom: 40px;
+                @media(max-width:791px){
+                    padding-bottom: 20px;
+                }
+            }
+            h4{
+                padding-bottom: 20px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                @media(max-width:791px){
+                padding-bottom: 10px;
+                }
+                @media(max-width:727px){
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    
+                }
+            }
+            p{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+               
+                @media(max-width:961px){
+                    line-height: 20px;
+                }
+                @media(max-width:727px){
+                    font-size: 12px;
+                    line-height: 18px;
+
+                }
+
+            }
+        }
+    }
+}
+

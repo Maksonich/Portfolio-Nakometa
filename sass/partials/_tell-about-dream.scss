@@ -1,0 +1,265 @@
+.tell__about-dream {
+    margin-bottom: 60px;
+    @media (max-width:828px){
+        margin-bottom: 0px;
+    }
+    .layout{
+        overflow: visible;
+    }
+    .background__tel { 
+        padding: 60px 0 0 60px;
+        background-color: rgba(235, 250, 255, 1);
+        border-radius: 20px;
+        height: 957px; 
+        @media (max-width:828px){
+            background-color: rgba(235, 250, 255, 0);
+            padding: 30px 0 0 0;
+        }
+        .name-block{
+            @media (max-width:828px){
+                display: none;
+            }
+        }
+        .responsive-name{
+            display: none;
+            @media (max-width:828px){
+                display: block;
+            }
+        }
+        h3{
+            max-width: 49%;
+            margin-bottom: 52px;
+            @media (max-width:828px){
+                max-width: none;
+            }
+        }
+        .tell-dream__content {
+            display: flex; 
+            justify-content: space-evenly;
+            align-items: flex-end;
+            @media (max-width:828px){
+                flex-direction: column;
+                align-items: center;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                z-index: 3;
+                min-width: 560px;
+                height: 655px;
+                background: #FFFFFF;
+                border-radius: 20px;
+                position: relative;
+                top: 0;
+                left: 0;
+                z-index: 2;
+               
+                @media (max-width:1080px){
+                    top: 0;
+                    left: 70px;
+                }
+                @media (max-width:960px){
+                    left: 100px;
+                }
+                @media (max-width:874px){
+                    
+                    left: 130px;
+                }
+                @media (max-width:828px){
+                    position: static;
+                   
+                }
+                @media (max-width:590px){
+                    min-width: auto;
+                    width: 90vw;
+                   
+                }
+                #file + label{
+                    border-radius:20px 20px  0 0;
+                    background: #F9F9F9;
+                    width: 560px;
+                    min-height: 325px;
+                    background-image: url(../images/form.png);
+                    background-repeat:no-repeat; 
+                    background-position: 50% 50%;
+                    text-align: center;
+                    padding-top: 230px;
+                    @media (max-width:828px){
+                       margin-top: -24px;
+                    }
+                    @media (max-width:590px){
+                        width: 100%;
+                    }
+                    span{
+                        color:rgba(3, 186, 254, 1);
+                    }
+                }
+                #dream{
+                    margin: 20px 20px 0 20px;
+                    padding-left: 10px;
+                    width: 520px;
+                    height: 40px;
+                    background: #F9F9F9;
+                    border: solid 1px #E9E9E9;
+                    @media (max-width:590px){
+                        width: 93%;
+                    }
+                    &::placeholder{
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #737373;
+                    }
+                }
+                #description{
+                    resize: none;
+                    margin: 20px ;
+                    background: #F9F9F9;
+                    width: 520px;
+                    height: 80px;
+                    border: solid 1px #E9E9E9;
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #737373;
+                    padding: 10px;
+                    @media (max-width:590px){
+                        width: 93%;
+                    }
+                }
+                .money{
+                    position: relative;
+                    top: 0;left: 20px;
+                    width: 100%;
+                    #money {
+                        width: 520px;
+                        height: 44px;
+                        background: #F9F9F9;
+                        border: solid 1px #E9E9E9;
+                        padding-left: 30px;
+                        @media (max-width:590px){
+                           width: 100%;
+                        }
+                    }
+                    @media (max-width:590px){
+                        left: auto;
+                        width: 93%;
+                    }
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: 15px;
+                        left: 10px;
+                        background-image:url(../images/icon/€.png);
+                        background-repeat: no-repeat;
+                        width: 10px;
+                        height: 24px;
+                        z-index: 999;
+                    }
+                }
+              
+                button{
+                    margin-top: 22px;
+                    padding: 10px 20px;
+                    width: 140px;
+                    background-color: rgba(255, 162, 0, 1);
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                    border: none;
+                    border-radius: 5px;
+                    transition-duration: 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        background-color:rgb(206, 137, 19); ;
+                    }
+                }
+                
+            }
+            .img__tell-dream {
+                position: relative;
+                margin-top: -50px;
+                margin-left: 20px;
+                @media (max-width:828px){
+                    display: none;
+                }
+
+                .name__dream{
+                    margin-left: 30px;
+                    @media (max-width:1080px){
+                        margin-left: 80px;
+                    }
+                    @media (max-width:960px){
+                        margin-left: 100px;
+                        
+                    }
+                    @media (max-width:874px){
+                        margin-left: 120px;
+                    }
+                    h5{
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color: #999999;
+                    }
+                    div{
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: rgba(153, 153, 153, 1);
+                        span{
+                            font-weight: 700;
+                            color: rgba(0, 0, 0, 1);
+                        }
+                    } 
+                    .four-range{
+                        width: 440px;
+                        background: -webkit-linear-gradient(left, rgba(3, 186, 254, 1) 0%, rgba(3, 186, 254, 1) 0%, rgba(3, 186, 254, 0.5) 0%, rgba(3, 186, 254, 0.5) 100%);
+                        height: 5px;
+                        border-radius: 10px;
+                        margin: 10px 0;
+                        @media (max-width:1080px){
+                            width: 350px;
+                        }
+                        @media (max-width:960px){
+                            width: 290px;
+                        }
+                        @media (max-width:874px){
+                            width: 240px;
+                        }
+                    }
+                }
+                .img-right{
+                        position: relative;
+                        top: -190px;
+                        left: -100px;
+                         width: 550px;
+                        height: 500px;
+                        img{
+                        z-index: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+                
+            }
+        }
+        
+    }
+    
+}

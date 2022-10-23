@@ -1,0 +1,213 @@
+.support h3 {
+  text-align: center;
+  margin-bottom: 125px; }
+
+.support .support__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative; }
+  @media (max-width: 1080px) {
+    .support .support__content {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+  @media (max-width: 900px) {
+    .support .support__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  .support .support__content .left__img {
+    height: 562px;
+    width: 700px; }
+    @media (max-width: 1080px) {
+      .support .support__content .left__img {
+        width: 95%;
+        height: 95%; } }
+    @media (max-width: 900px) {
+      .support .support__content .left__img {
+        width: 100%;
+        height: 100%; } }
+    .support .support__content .left__img img {
+      -o-object-fit: cover;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+  .support .support__content .support__more {
+    max-width: 35%; }
+    @media (max-width: 1135px) {
+      .support .support__content .support__more {
+        max-width: 40%; } }
+    @media (max-width: 970px) {
+      .support .support__content .support__more {
+        max-width: 45%; } }
+    @media (max-width: 900px) {
+      .support .support__content .support__more {
+        max-width: none; } }
+    .support .support__content .support__more .motivation {
+      border: solid 2px rgba(3, 186, 254, 0.15);
+      padding: 30px;
+      border-radius: 20px; }
+      .support .support__content .support__more .motivation h4 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        padding-bottom: 15px;
+        max-width: 70%; }
+        @media (max-width: 900px) {
+          .support .support__content .support__more .motivation h4 {
+            max-width: none; } }
+        @media (max-width: 500px) {
+          .support .support__content .support__more .motivation h4 {
+            font-weight: 600;
+            font-size: 18px; } }
+      .support .support__content .support__more .motivation div {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #03BAFE;
+        padding-bottom: 15px; }
+        @media (max-width: 500px) {
+          .support .support__content .support__more .motivation div {
+            font-weight: 700;
+            font-size: 21px; } }
+      .support .support__content .support__more .motivation span {
+        display: inline-block;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #999999;
+        padding-bottom: 15px;
+        max-width: 70%; }
+        @media (max-width: 1023px) {
+          .support .support__content .support__more .motivation span {
+            max-width: 80%; } }
+        @media (max-width: 900px) {
+          .support .support__content .support__more .motivation span {
+            max-width: none; } }
+        @media (max-width: 500px) {
+          .support .support__content .support__more .motivation span {
+            font-weight: 600;
+            font-size: 14px; } }
+    .support .support__content .support__more .more {
+      margin-top: 20px;
+      background-color: #EBFAFF;
+      border-radius: 20px;
+      padding-bottom: 12px; }
+      .support .support__content .support__more .more h4 {
+        padding: 20px 0 0 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px; }
+        @media (max-width: 500px) {
+          .support .support__content .support__more .more h4 {
+            font-weight: 700;
+            font-size: 21px; } }
+      .support .support__content .support__more .more ul {
+        margin-bottom: 25px; }
+        .support .support__content .support__more .more ul li {
+          padding: 24px 40px 0 64px;
+          font-family: 'Nunito';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          position: relative; }
+          @media (max-width: 500px) {
+            .support .support__content .support__more .more ul li {
+              font-weight: 400;
+              font-size: 12px; } }
+          .support .support__content .support__more .more ul li a {
+            color: #0068FF; }
+        .support .support__content .support__more .more ul .one-list::before {
+          content: url(../images/num_list/num-1.png);
+          position: absolute;
+          top: 5px;
+          left: 20px; }
+        .support .support__content .support__more .more ul .two-list::before {
+          content: url(../images/num_list/num-2.png);
+          position: absolute;
+          top: 16px;
+          left: 20px; }
+        .support .support__content .support__more .more ul .tree-list::before {
+          content: url(../images/num_list/num-3.png);
+          position: absolute;
+          top: 16px;
+          left: 20px; }
+        .support .support__content .support__more .more ul .four-list::before {
+          content: url(../images/num_list/num-4.png);
+          position: absolute;
+          top: 26px;
+          left: 20px; }
+    .support .support__content .support__more .btn__support {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      white-space: nowrap; }
+      @media (max-width: 900px) {
+        .support .support__content .support__more .btn__support {
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; } }
+      .support .support__content .support__more .btn__support .btn__start {
+        margin-right: 11px;
+        margin-left: 20px; }
+        @media (max-width: 500px) {
+          .support .support__content .support__more .btn__support .btn__start {
+            text-align: center;
+            width: 90%;
+            font-weight: 700;
+            font-size: 14px; } }
+        .support .support__content .support__more .btn__support .btn__start a {
+          background-color: #ffa200;
+          padding: 13px 25px;
+          border-radius: 5px;
+          font-family: 'Nunito';
+          font-style: normal;
+          font-size: 14px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: 0.2px;
+          color: #000000;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+          .support .support__content .support__more .btn__support .btn__start a:hover {
+            background-color: #ffd900; }
+      .support .support__content .support__more .btn__support .btn__more {
+        display: block; }
+        @media (max-width: 500px) {
+          .support .support__content .support__more .btn__support .btn__more {
+            display: none; } }
+        .support .support__content .support__more .btn__support .btn__more a {
+          background-color: #03bafe;
+          padding: 13px 25px;
+          border-radius: 5px;
+          font-family: 'Nunito';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: 0.2px;
+          color: #FFFFFF;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+          .support .support__content .support__more .btn__support .btn__more a:hover {
+            background-color: #06749c; }

@@ -1,0 +1,83 @@
+.fundraising__company h3 {
+  margin-bottom: 47px; }
+
+.fundraising__company .accordion-wrap .accordion-item {
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 30px; }
+  .fundraising__company .accordion-wrap .accordion-item h4 {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.2px; }
+    .fundraising__company .accordion-wrap .accordion-item h4 .fa {
+      -webkit-transition: ease-in-out 300ms;
+      -o-transition: ease-in-out 300ms;
+      transition: ease-in-out 300ms;
+      -webkit-filter: contrast(0.9);
+      filter: contrast(0.9); }
+    .fundraising__company .accordion-wrap .accordion-item h4 .rotate-fa {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+  .fundraising__company .accordion-wrap .accordion-item .accordion-header {
+    -webkit-transition: ease-in-out 100ms;
+    -o-transition: ease-in-out 100ms;
+    transition: ease-in-out 100ms; }
+    .fundraising__company .accordion-wrap .accordion-item .accordion-header .fa {
+      float: right;
+      line-height: 35px; }
+
+.fundraising__company .accordion-wrap .accordion-text {
+  width: 100%;
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 20px; }
+  .fundraising__company .accordion-wrap .accordion-text p {
+    padding-top: 20px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px; }
+
+.fundraising__company .accordion-wrap .accordion-no-bar {
+  border-bottom: 0; }
+
+.fundraising__company .fundraising__footer {
+  margin-top: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .fundraising__company .fundraising__footer .question {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #000000; }
+  .fundraising__company .fundraising__footer .mail {
+    padding: 20px 0 70px 0; }
+    .fundraising__company .fundraising__footer .mail a {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      -webkit-text-decoration-line: underline;
+      text-decoration-line: underline;
+      color: #03BAFE;
+      padding-right: 68px; }
+      .fundraising__company .fundraising__footer .mail a:last-child {
+        padding-right: 0; }

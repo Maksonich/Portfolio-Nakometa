@@ -1,0 +1,287 @@
+@charset "UTF-8";
+.tell__about-dream {
+  margin-bottom: 60px; }
+  @media (max-width: 828px) {
+    .tell__about-dream {
+      margin-bottom: 0px; } }
+  .tell__about-dream .layout {
+    overflow: visible; }
+  .tell__about-dream .background__tel {
+    padding: 60px 0 0 60px;
+    background-color: #ebfaff;
+    border-radius: 20px;
+    height: 957px; }
+    @media (max-width: 828px) {
+      .tell__about-dream .background__tel {
+        background-color: rgba(235, 250, 255, 0);
+        padding: 30px 0 0 0; } }
+    @media (max-width: 828px) {
+      .tell__about-dream .background__tel .name-block {
+        display: none; } }
+    .tell__about-dream .background__tel .responsive-name {
+      display: none; }
+      @media (max-width: 828px) {
+        .tell__about-dream .background__tel .responsive-name {
+          display: block; } }
+    .tell__about-dream .background__tel h3 {
+      max-width: 49%;
+      margin-bottom: 52px; }
+      @media (max-width: 828px) {
+        .tell__about-dream .background__tel h3 {
+          max-width: none; } }
+    .tell__about-dream .background__tel .tell-dream__content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end; }
+      @media (max-width: 828px) {
+        .tell__about-dream .background__tel .tell-dream__content {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; } }
+      .tell__about-dream .background__tel .tell-dream__content form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        z-index: 3;
+        min-width: 560px;
+        height: 655px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 2; }
+        .tell__about-dream .background__tel .tell-dream__content form::before {
+          content: '';
+          position: absolute;
+          top: 520px;
+          left: 32px;
+          background-image: url(../images/icon/€.png);
+          background-repeat: no-repeat;
+          width: 10px;
+          height: 24px;
+          z-index: 999; }
+        @media (max-width: 1080px) {
+          .tell__about-dream .background__tel .tell-dream__content form {
+            top: 0;
+            left: 70px; } }
+        @media (max-width: 960px) {
+          .tell__about-dream .background__tel .tell-dream__content form {
+            left: 100px; } }
+        @media (max-width: 874px) {
+          .tell__about-dream .background__tel .tell-dream__content form {
+            left: 130px; } }
+        @media (max-width: 828px) {
+          .tell__about-dream .background__tel .tell-dream__content form {
+            position: static; }
+            .tell__about-dream .background__tel .tell-dream__content form::before {
+              position: relative;
+              top: 520px;
+              left: -244px; } }
+        @media (max-width: 590px) {
+          .tell__about-dream .background__tel .tell-dream__content form {
+            min-width: auto;
+            width: 90vw; }
+            .tell__about-dream .background__tel .tell-dream__content form::before {
+              left: -220px; } }
+        @media (max-width: 542px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -205px; } }
+        @media (max-width: 502px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -190px; } }
+        @media (max-width: 480px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -178px; } }
+        @media (max-width: 452px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -170px; } }
+        @media (max-width: 452px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -170px; } }
+        @media (max-width: 420px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -150px; } }
+        @media (max-width: 380px) {
+          .tell__about-dream .background__tel .tell-dream__content form::before {
+            left: -138px; } }
+        .tell__about-dream .background__tel .tell-dream__content form #file + label {
+          border-radius: 20px 20px  0 0;
+          background: #F9F9F9;
+          width: 560px;
+          min-height: 325px;
+          background-image: url(../images/form.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          text-align: center;
+          padding-top: 230px; }
+          @media (max-width: 828px) {
+            .tell__about-dream .background__tel .tell-dream__content form #file + label {
+              margin-top: -24px; } }
+          @media (max-width: 590px) {
+            .tell__about-dream .background__tel .tell-dream__content form #file + label {
+              width: 100%; } }
+          .tell__about-dream .background__tel .tell-dream__content form #file + label span {
+            color: #03bafe; }
+        .tell__about-dream .background__tel .tell-dream__content form #dream {
+          margin: 20px 20px 0 20px;
+          padding-left: 10px;
+          width: 520px;
+          height: 40px;
+          background: #F9F9F9;
+          border: solid 1px #E9E9E9; }
+          @media (max-width: 590px) {
+            .tell__about-dream .background__tel .tell-dream__content form #dream {
+              width: 93%; } }
+          .tell__about-dream .background__tel .tell-dream__content form #dream::-webkit-input-placeholder {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #737373; }
+          .tell__about-dream .background__tel .tell-dream__content form #dream:-ms-input-placeholder {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #737373; }
+          .tell__about-dream .background__tel .tell-dream__content form #dream::-ms-input-placeholder {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #737373; }
+          .tell__about-dream .background__tel .tell-dream__content form #dream::placeholder {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #737373; }
+        .tell__about-dream .background__tel .tell-dream__content form #description {
+          resize: none;
+          margin: 20px;
+          background: #F9F9F9;
+          width: 520px;
+          height: 80px;
+          border: solid 1px #E9E9E9;
+          font-family: 'Nunito';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #737373;
+          padding: 10px; }
+          @media (max-width: 590px) {
+            .tell__about-dream .background__tel .tell-dream__content form #description {
+              width: 93%; } }
+        .tell__about-dream .background__tel .tell-dream__content form #money {
+          width: 520px;
+          height: 44px;
+          background: #F9F9F9;
+          border: solid 1px #E9E9E9;
+          padding-left: 30px; }
+          @media (max-width: 590px) {
+            .tell__about-dream .background__tel .tell-dream__content form #money {
+              width: 93%; } }
+        .tell__about-dream .background__tel .tell-dream__content form button {
+          margin-top: 22px;
+          padding: 10px 20px;
+          width: 140px;
+          background-color: #ffa200;
+          font-family: 'Nunito';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #000000;
+          border: none;
+          border-radius: 5px;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+          .tell__about-dream .background__tel .tell-dream__content form button:hover {
+            cursor: pointer;
+            background-color: #ce8913; }
+      .tell__about-dream .background__tel .tell-dream__content .img__tell-dream {
+        position: relative;
+        margin-top: -50px;
+        margin-left: 20px; }
+        @media (max-width: 828px) {
+          .tell__about-dream .background__tel .tell-dream__content .img__tell-dream {
+            display: none; } }
+        .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream {
+          margin-left: 30px; }
+          @media (max-width: 1080px) {
+            .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream {
+              margin-left: 80px; } }
+          @media (max-width: 960px) {
+            .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream {
+              margin-left: 100px; } }
+          @media (max-width: 874px) {
+            .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream {
+              margin-left: 120px; } }
+          .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream h5 {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #999999; }
+          .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream div {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #999999; }
+            .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream div span {
+              font-weight: 700;
+              color: black; }
+          .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream .four-range {
+            width: 440px;
+            background: -webkit-linear-gradient(left, #03bafe 0%, #03bafe 0%, rgba(3, 186, 254, 0.5) 0%, rgba(3, 186, 254, 0.5) 100%);
+            height: 5px;
+            border-radius: 10px;
+            margin: 10px 0; }
+            @media (max-width: 1080px) {
+              .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream .four-range {
+                width: 350px; } }
+            @media (max-width: 960px) {
+              .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream .four-range {
+                width: 290px; } }
+            @media (max-width: 874px) {
+              .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .name__dream .four-range {
+                width: 240px; } }
+        .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .img-right {
+          position: relative;
+          top: -190px;
+          left: -100px;
+          width: 550px;
+          height: 500px; }
+          .tell__about-dream .background__tel .tell-dream__content .img__tell-dream .img-right img {
+            z-index: 0;
+            width: 100%;
+            height: 100%; }

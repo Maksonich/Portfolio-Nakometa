@@ -1,0 +1,96 @@
+.fundraising__company {
+    h3{
+        margin-bottom: 47px;
+    }
+    .accordion-wrap{
+        .accordion-item{
+            width: 100%;
+            margin: 0 auto;
+            cursor: pointer;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            h4{
+                
+                font-family: 'Nunito';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0.2px; 
+                text-overflow: 20px;
+                
+                        
+            }
+            .fa {
+                transition: ease-in-out 300ms;
+             filter: contrast(0.9);
+            }
+            
+            .rotate-fa{
+                transform: rotate(180deg);
+            } 
+            .accordion-header{
+                transition: ease-in-out 100ms;
+                .fa{
+                    float: right;
+                    line-height: 35px;
+                }
+            }
+        }
+        .accordion-text{
+        width: 100%;
+        display: none;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        
+            p{
+            padding-top: 20px;
+            font-family: 'Nunito';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            }
+        }
+        .accordion-no-bar{
+            border-bottom: 0;
+       }
+    }
+    .fundraising__footer {
+        margin-top: 108px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .question {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #000000;
+        }
+        .mail {
+            padding: 20px 0 70px 0;
+            a{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                text-decoration-line: underline;
+                color: $colorBlue;
+                padding-right:68px;
+                &:last-child{
+                    padding-right: 0;
+                }
+            }
+       } 
+    }   
+}
+
+   
+  
+

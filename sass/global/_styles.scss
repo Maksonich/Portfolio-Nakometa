@@ -1,0 +1,56 @@
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section{
+	@include box;
+}
+.layout {
+	@include box;
+	max-width: 1164px;
+	margin:  0 auto;
+	@media (max-width:1179px){
+		padding: 0 15px;
+	}
+
+}
+body{
+	background-color: rgba(229, 229, 229, 0.4);
+}
+.stop-scroll{
+	overflow-y: hidden;
+}
+.wrapper-black{
+	background-color: rgba(24, 24, 24, 0.856);
+	opacity: 0.6;
+	transition: all 0.3s ease-in-out;
+}
+
+h3{
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	color: #000000;
+	@media (max-width :500px){
+		font-weight: 700;
+		font-size: 21px;
+		line-height: 24px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.slider__review {
+  margin-top: 128px; }
+  .slider__review .layout {
+    overflow: visible; }
+    .slider__review .layout ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .slider__review .layout ul li {
+        position: relative;
+        top: 0;
+        left: 20px;
+        margin-right: 20px; }
+        .slider__review .layout ul li::before {
+          content: '';
+          width: 69px;
+          height: 69px;
+          -webkit-transform: translate(-50%);
+          -ms-transform: translate(-50%);
+          transform: translate(-50%);
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          z-index: 10;
+          cursor: pointer; }

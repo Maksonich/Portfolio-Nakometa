@@ -1,0 +1,238 @@
+.support {
+
+	h3{
+		text-align: center;
+		margin-bottom: 125px;
+	}
+	.support__content {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		@media (max-width :1080px){
+			align-items: center;
+		}
+		@media (max-width :900px){
+			flex-direction: column;
+		}
+		.left__img {
+			height: 562px;
+			width: 700px;
+			@media (max-width :1080px){
+				width: 95%;
+				height: 95%;
+			}
+			@media (max-width :900px){
+			 width: 100%;
+			 height:100%;
+			}
+			img{
+			object-fit:cover;	
+			width: 100%;
+			height: 100%;
+			
+			}
+			
+
+		}
+		
+		.support__more {
+			max-width: 35%;
+			@media (max-width:1135px){
+			max-width: 40%;
+			}
+			@media (max-width:970px){
+			max-width: 45%;
+			}
+			@media (max-width :900px){
+				max-width: none;
+			}
+		.motivation {
+			border:solid 2px rgba(3, 186, 254, 0.15);
+			padding: 30px;
+			border-radius: 20px;
+			
+			
+			h4{
+				font-family: 'Nunito';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 32px;
+				letter-spacing: 0.1px;
+				padding-bottom: 15px;
+				max-width: 70%;
+				@media (max-width :900px){
+					max-width: none;
+				}
+				@media (max-width:500px){
+					font-weight: 600;
+					font-size: 18px;
+				}
+			}
+			div{
+				font-family: 'Nunito';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 32px;
+				letter-spacing: 0.1px;
+				color: $colorBlue;
+				padding-bottom: 15px;
+				@media (max-width:500px){
+					font-weight: 700;
+					font-size: 21px;
+				}
+			}
+			span{
+				display: inline-block;
+				font-family: 'Manrope';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 24px;
+				letter-spacing: 0.1px;
+				color: #999999;
+				padding-bottom: 15px;
+				max-width: 70%;
+				@media (max-width :1023px){
+					max-width: 80%;
+				}
+				@media (max-width :900px){
+					max-width: none;
+				}
+				@media (max-width:500px){
+					font-weight: 600;
+					font-size: 14px;
+				}
+			}
+		}
+		.more {
+			margin-top: 20px;
+			background-color:#EBFAFF;
+			border-radius: 20px;
+			padding-bottom: 12px;
+			
+			h4{ 
+				padding: 20px 0 0 20px;
+				font-family: 'Nunito';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 32px;
+				@media (max-width:500px){
+					font-weight: 700;
+					font-size: 21px;
+				}
+			}
+			ul {
+				margin-bottom: 25px;
+				li{
+					padding: 24px 40px 0 64px;
+					font-family: 'Nunito';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 24px;
+					position: relative;
+					@media (max-width:500px){
+						font-weight: 400;
+						font-size: 12px;
+					}
+					a{
+						color: #0068FF;
+					}
+				}
+				.one-list::before{
+					content: url(../images/num_list/num-1.png);
+					position: absolute;
+					top: 5px;		
+					left: 20px;			
+				}
+				.two-list::before{
+					content: url(../images/num_list/num-2.png);
+					position: absolute;
+					top: 16px;		
+					left: 20px;	
+				}
+				.tree-list::before{
+					content: url(../images/num_list/num-3.png);
+					position: absolute;
+					top: 16px;		
+					left: 20px;	
+				}
+				.four-list::before{
+					content: url(../images/num_list/num-4.png);
+					position: absolute;
+					top: 26px;		
+					left: 20px;	
+				}
+			}
+		}
+		.btn__support {
+			display: flex;
+			white-space: nowrap;
+			padding-bottom: 20px;
+			@media (max-width:900px){
+				justify-content: space-evenly;
+			}
+			.btn__start {
+				
+				margin-right: 11px;
+				margin-left: 20px;
+				@media (max-width :500px){
+					text-align: center;
+					width: 90%;
+					font-weight: 700;
+					font-size: 14px;
+				}
+				a{
+					background-color:rgba(255, 162, 0, 1);
+					padding: 13px 25px;
+					border-radius: 5px;
+					font-family: 'Nunito';
+					font-style: normal;
+					font-size: 14px;
+					line-height: 28px;
+					text-align: center;
+					letter-spacing: 0.2px;
+					color: #000000;
+					transition-duration: 0.5s;
+					&:hover{
+						background-color:rgb(255, 217, 0);
+
+					}
+				}
+			}
+			.btn__more {
+				display: block;
+				@media (max-width :500px){
+					display: none;
+				}
+				a{
+				background-color: $colorBlue;
+				padding: 13px 25px;
+				border-radius: 5px;
+				font-family: 'Nunito';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 28px;
+				text-align: center;
+				letter-spacing: 0.2px;
+				color: #FFFFFF;
+				transition-duration: 0.5s;
+					&:hover{
+						background-color:rgb(6, 116, 156);
+
+					}
+				}
+			}
+		}
+			
+	}
+	}
+	
+	
+	
+
+}

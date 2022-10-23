@@ -1,0 +1,29 @@
+.slider__review{
+    margin-top: 128px;
+    .layout{
+    overflow: visible;
+        ul{
+            display: flex;
+            li{
+                position: relative;
+                top: 0;left:20px;
+                margin-right: 20px;
+                &::before{
+                    content: '';
+                    width: 69px;
+                    height: 69px;
+                    transform:translate(-50%);
+                    position: absolute;
+                    top: 40%;
+                    left: 50%;
+                    z-index: 10;
+                    cursor: pointer;
+                }
+                
+
+            }
+           
+        }
+      
+    }
+}
